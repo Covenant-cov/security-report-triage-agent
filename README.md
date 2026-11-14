@@ -86,9 +86,7 @@ python -m evals.run_evals --mode claude
 
 It scores vulnerability class, severity (exact and within one level), duplicate detection and injection detection, and writes per-case results to `evals/results/`.
 
-<!-- TODO: paste the Claude eval scores here after running with an API key. -->
-
-> The mock triager also scores high on this set, but only because its keywords were written alongside the dataset. Mock mode exists to demo and test the plumbing, not to measure quality.
+Mock mode is for demos and tests only; its scores are not a measure of triage quality.
 
 ## Tests
 
